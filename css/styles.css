@@ -79,6 +79,7 @@ main {
 }
 
 #home {
+  text-align: left;
   align-content: center;
   justify-content: center;
 }
@@ -111,12 +112,6 @@ main {
   justify-content: right;
 }
 
-#col2 {
-  text-align: left;
-  align-content: left;
-  justify-content: left;
-}
-
 nav {
   padding: auto;
   margin: auto;
@@ -137,11 +132,6 @@ li a {
   color: black;
   font-size: 24px;
 }
-
-main {
-      padding: 10px;
-  }
-
 
 
 h1 {
