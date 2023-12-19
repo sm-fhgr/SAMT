@@ -1,9 +1,14 @@
 body {
-  margin: 10px;
-  padding: 0;
   background-image: url(../images/bg3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 0%;
+  margin: 0%;
+}
+
+main {
+  padding: 0%;
+  margin: 0%;
 }
 
 #bg {
@@ -20,10 +25,10 @@ body {
 .flex-grid-header {
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
+  padding-top: 5%;
   padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1%;
+  padding-right: 1%;
   align-content: left;
   justify-content: space-between;
 }
@@ -35,30 +40,41 @@ body {
 .flex-grid-2col {
   display: flex;
   flex-direction: row;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0%;
+  padding-right: 0%;
   align-content: left;
   justify-content: space-between;
 }
 
 .flex-grid-2col .col {
   background-color: rgba(245, 245, 245, 0.3);
-  width: 49%;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 1px;
-  padding-right: 1px;
+  width: 50%;
+  column-gap: 0cap;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .flex-grid-2col .col img {
-  width: 725px;
-  height: 436px;
+  max-width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .flex-grid-2col .col h1 {
+  padding-left: 2%;
   font-size: 3pc;
+  color: white;
+}
+
+.flex-grid-2col .col h2 {
+  padding-left: 2%;
+  font-size: 1.5pc;
   color: white;
 }
 
@@ -89,10 +105,10 @@ body {
   margin: 10px;
 }
 
-#col1 {
-  text-align: left;
-  align-content: left;
-  justify-content: left;
+#imgright {
+  text-align: right;
+  align-content: right;
+  justify-content: right;
 }
 
 #col2 {
@@ -140,60 +156,4 @@ h2 {
 
 h1, h2, h3 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
-#grid-footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start:7;
-  grid-row-end: 8;
-  display: flex;
-  background-color: darkgray;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
-}
-
-.shadow-box {
-  width: auto;
-  height: auto;
-  padding: 15px;
-  box-shadow: 8px 8px;
-}
-
-.form-box {
-  width: auto;
-  height: auto;
-  padding: 15px;
-  background-color: coral;
-  box-shadow: 10px 10px;
-}
-
-#grid-form {
-  padding: auto;
-  display: flex;
-  flex-direction: column;
-  border-color: black;
-  border-top: 10px;
-  border-left: 10px;
-}
-
-#submitButton {
-  margin: 10px 0;
-  padding: auto;
-  width: 20%;
-  float: right;
-}
-
-form input::shadow {
-  border: 5px solid black;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-}
-
-#sendButton:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
 }
