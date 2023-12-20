@@ -24,12 +24,10 @@ main {
 
 .flex-grid-header {
   display: flex;
-  flex-direction: row;
   padding-top: 5%;
   padding-bottom: 5px;
   padding-left: 1%;
   padding-right: 1%;
-  align-content: left;
   justify-content: space-between;
 }
 
@@ -39,12 +37,10 @@ main {
 
 .flex-grid-2col {
   display: flex;
-  flex-direction: row;
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 0%;
   padding-right: 0%;
-  align-content: left;
   justify-content: space-between;
 }
 
@@ -104,6 +100,7 @@ main {
   align-items: center;
   padding: 10px;
   margin: 10px;
+  width: 100%;
 }
 
 #imgright {
