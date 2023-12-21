@@ -203,3 +203,6 @@ h1, h2, h3 {
 .angebot-page .col img:hover {
   filter: saturate(100%); }
 
+.angebot-page .body {
+  background-image: url(../images/wusch2.jpg);
+}
