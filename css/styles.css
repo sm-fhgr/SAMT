@@ -152,8 +152,54 @@ h1, h2, h3 {
 
 #smalimg {
   width: 600px;
-
-  }
   
+  }
 
+#angebotcolstyle h1 {
+  font-size: 2.5pc; 
+}
+
+#angebotcolstyle h2 {
+  font-size: 0.8pc; 
+}
+
+#angebotcolstyle h3 {
+  font-size: 19.8pc; 
+  color: black;
+  text-align: center; 
+}
+#angebotcolstyle h4 {
+  font-size: 7pc; 
+  color: black;
+  background-color:  rgb(255, 254, 254);
+}
+#angebotcolstyle h5 {
+  font-size: 3.8pc; 
+  color: rgb(0, 0, 0);
+  text-align: left; 
+  background-color:  rgb(255, 253, 253);
+}
+#angebotcolstyle h6 {
+  font-size: 7pc; 
+  color: rgb(255, 255, 255);
+  text-align: left; 
+  background-color:  rgba(245, 245, 245, 0.3);
+}
+#angebotcolstyle h7 {
+  font-size: 3.8pc; 
+  color: rgb(255, 255, 255);
+  text-align: left; 
+  background-color:  rgba(245, 245, 245, 0.3);
+}
+
+.angebot-page .col img {
+  max-width: 100%;
+  padding: 0;
+  filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+
+.angebot-page .col img:hover {
+  filter: saturate(100%); }
 
