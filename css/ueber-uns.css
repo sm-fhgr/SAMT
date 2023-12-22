@@ -1,0 +1,268 @@
+
+@font-face {
+    font-family: 'TTTravelsNext';
+    src: url('/fonts/TTTravelsNext.ttf');
+    font-family: 'TTTravelsNextBlackItalic';
+    src: url('/fonts/TTTravelsNextBlackItalic.ttf');
+}
+@font-face {
+    font-family: 'Urbanist';
+    src: url('/fonts/Urbanist.ttf');
+}
+
+*{
+    --mainDark: #1b1b1b;
+    --mainBright: #f5e2ff;
+    --mainBlue: #4F4FFF;
+    --black: #000;
+    --white: #fff;
+    box-sizing: border-box;
+
+}
+#menu{
+    display: none;
+}
+.full-menu{
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    left: 100svw;
+    width: 100vw;
+    width: 100svw;
+    height: 100vh;
+    height: 100svh;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+    display: flex;
+    padding: 10rem;
+    flex-direction: column;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    justify-content: center;
+    gap: 2rem;
+    align-items: end;
+    transition: all 0.5s ease;
+
+}
+.burger-line, .burger-line::after, .burger-line::before{
+    transition: all 0.3s ease;
+}
+#menu:checked ~ .full-menu{
+    opacity: 1;
+    left: 0;
+}
+#menu:checked ~ .menu-burger .burger-line, #menu:checked ~ .menu-burger .burger-line::before, #menu:checked ~ .menu-burger .burger-line::after{
+    background-color: white;
+}
+#menu:checked ~ .menu-burger .burger-line{
+    transform: rotate(45deg);
+}
+#menu:checked ~ .menu-burger .burger-line::before{
+    display: none;
+}
+#menu:checked ~ .menu-burger .burger-line::after{
+    transform: rotate(90deg) translate(-10px, 0px);
+    width: 40px;
+}
+a{
+    all: unset;
+    cursor: pointer;
+    padding: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+a:hover{
+    border-bottom: 1px solid var(--mainDark);
+}
+h1{
+    font-family: 'TTTravelsNext', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--mainDark)
+}
+h2, h3, h4, p, a, label{
+    font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.hero{
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 120px 50px;
+
+}
+.hero h1{
+    text-transform: uppercase;
+    line-height: 5pc;
+    font-family: 'TTTravelsNextBlackItalic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero h1 span{
+    margin-left: 50px;
+}
+.team{
+    background-color: var(--mainBright);
+    padding-bottom: 100px;
+}
+.introduction{
+    background: rgb(192,134,209);
+    background: linear-gradient(180deg, rgba(192,134,209,1) 0%, rgba(248,161,183,1) 100%);
+    padding: 20px 50px;
+    color: var(--white);
+}
+.introduction h2{
+    font-weight: 500;
+}
+.introduction h2 span{
+    text-transform: uppercase;
+}
+.introduction p{
+    font-weight: 300;
+}
+.team-accordion{
+    padding: 100px 0;
+}
+.teamcard{
+    position: relative;
+    border-bottom: 2px solid var(--mainDark)
+}
+.teamcard input{
+    position: absolute;
+    display: none;
+}
+.team-details {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows 0.4s ease, margin 0.4s ease, opacity 1s ease-out;
+    margin: 0 100px 20px 0;
+}
+
+.teamcard input:checked ~ .team-details {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    margin-top: -40px;
+}
+.tab_label{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 1rem;
+}
+.tab_label::after{
+    position: absolute;
+    right: 50px;
+    content: '\276F'; /*unicode zeichen ❯ */
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transform: rotate(90deg);
+    transition: all 0.4s ease;
+}
+.teamcard input:checked + .tab_label::after{
+    transform: rotate(270deg);
+}
+.tab_label span, .tab_label a{
+    width: fit-content;
+}
+.tab_label .name{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+.team-content{
+    display: flex;
+    gap: 6rem;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    align-items: center;
+    opacity: 1;
+}
+.team-content img{
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 16px;
+    filter: saturate(0) contrast(1.2);
+
+}
+.team-content p{
+    margin: 0;
+    padding: 1rem;
+}
+
+footer{
+    padding: 50px;
+    min-height: 300px;
+    background-color: var(--mainBlue);
+}
+footer a{
+    display: block;
+}
+footer a, footer p{
+    margin: 1rem 0;
+}
+.big-link{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.some{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.some img{
+    width: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+    .hero h1{
+        font-size: 4pc;
+        line-height: 4pc;
+    }    
+    .teamcard input:checked ~ .team-details {
+        margin-top: 0px;
+    }
+        .team-content{
+        gap: 1rem;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .team-content img{
+        margin: 1rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .full-menu{
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        left: 100svw;
+        width: 100vw;
+        width: 100svw;
+        height: 100vh;
+        height: 100svh;
+        background: rgba(0,0,0,0.5);
+        z-index: 2;
+        display: flex;
+        padding: 5rem;
+        flex-direction: column;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        justify-content: center;
+        gap: 1rem;
+        align-items: end;
+        transition: all 0.5s ease;
+    
+    }
+}

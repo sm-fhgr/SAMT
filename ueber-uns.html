@@ -7,6 +7,7 @@
     <title>Über uns</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/ueber-uns.css">
 
 </head>
 
@@ -19,15 +20,142 @@
                         height="50">
                 </a>
             </div>
-            <div id="navsearch">
-                <a href=""> <img src="..\images\icons\search-dark.svg" alt="search" width="50" height="50">
-                </a>
-                <button class="menu-burger">
+                <input type="checkbox" name="menu" id="menu">
+                <label for="menu" class="menu-burger">
                     <span class="burger-line"></span>
-                </button>
-            </div>
+                </label>
+                <div class="full-menu">
+                    <a href="/index.html">Home</a>
+                    <a href="/angebot.html">Angebot</a>
+                    <a href="/ueber-uns.html">Über uns</a>
+                    <a href="/kontakt">Kontakt</a>
+                </div>
         </div>
     </header>
+    <main>
+        <section class="hero">
+            <h1>Über<br><span>Samt</span></h1>
+        </section>
+        <section class="team">
+            <div class="introduction">
+                <div class="content">
+                    <h2>Hi Wir sind <span>Samt</span>!</h2>
+                    <p>Die Herzen und Köpfe hinter diesem Projekt!
+                        Wir sind vier Multimedia Production Studierende aus Bern, die von einer Leidenschaft für Kunst
+                        und Kultur
+                        angetrieben werden. AlleSAMT wollen wir die Berner Kunstszene in ihrer Unabhängigkeit,
+                        Variation und Einzigartigkeit
+                        anregen. Wir wollen die Stadt zu einem pulsierenden und vielfältigen Zentrum für Kreativität
+                        machen und sie
+                        nachhaltig aufleben lassen.</p>
+                </div>
+            </div>
+            <div class="team-accordion content">
+                <div class="teamcard">
+                    <input type="radio" name="accordion-2" id="rd1">
+                    <label class="tab_label" for="rd1">
+                        <span class="name">Saurabh Mishra</span>
+                        <a class="email" href="mailto:saurabh@samt.ch">saurabh@samt.ch</a>
+                        <span class="role">Gründer | Finance | IT</span>
+                    </label>
+                    <div class="team-details">
+                        <div class="team-content">
+                            <img src="/images/team/saurabh.webp" alt="Saurabh">
+                            <p>
+                                Ob vor oder hinter der Kamera, ob Psychologie 
+    oder Multimedia Produktionen, Saurabh hat schon 
+    einiges erlebt und hinter sich. Doch das stoppt ihn nicht 
+    immer weiterzumachen, um Neues zu 
+    erlernen und zu erleben.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="teamcard">
+                    <input type="radio" name="accordion-2" id="rd2">
+                    <label class="tab_label" for="rd2">
+                        <span class="name">Anna-Maria Hohl</span>
+                        <a class="email" href="mailto:annamaria@samt.ch">annamaria@samt.ch</a>
+                        <span class="role">Gründerin | CEO</span>
+                    </label>
+                    <div class="team-details">
+                        <div class="team-content">
+                            <img src="/images/team/annamaria.webp" alt="Anna-Maria">
+                            <p>
+                                Eine große Liebe für Fotografie und Film. Anna-Maria
+                                hat schon unzählige, cinematische
+                                Teambuilding-Kurzfilme produziert und so Event und Film
+                                zu einer immersiven Hollywood Erfahrung
+                                zusammengebracht.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="teamcard">
+                    <input type="radio" name="accordion-2" id="rd3">
+                    <label class="tab_label" for="rd3">
+                        <span class="name">Mireille Beurret</span>
+                        <a class="email" href="mailto:mireille@samt.ch">mireille@samt.ch</a>
+                        <span class="role">Gründerin | Community Management | Social Media</span>
+                    </label>
+                    <div class="team-details">
+                        <div class="team-content">
+                            <img src="/images/team/mireille.webp" alt="Mireille">
+                            <p>
+                                Liebt es selbst an verschiedenste Veranstaltungen zu gehen,
+                                ob Kunstausstellungen oder Raves,
+                                von hier holt sie ihre Energie. Diese Energie steckt Mireille
+                                in fantastische grafische Werke die sich in vielen von unseren
+                                Postern zeigen.                         </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="teamcard">
+                    <input type="radio" name="accordion-2" id="rd4">
+                    <label class="tab_label" for="rd4">
+                        <span class="name">Tobias Kunz</span>
+                        <a class="email" href="mailto:tobias@samt.ch">tobias@samt.ch</a>
+                        <span class="role">Gründer | Client Contact | Event Management</span>
+                    </label>
+                    <div class="team-details">
+                        <div class="team-content">
+                            <img src="/images/team/tobias.webp" alt="Tobias">
+                            <p>
+                                Leidenschaftlicher Rapper, Radiomoderator und Podcaster.
+                                Tobias ist bekannt dafür, die „Cafete“ in Bern zu einem
+                                künstlerisch-musikalischen HotSpot
+                                aufleben zu lassen.                         </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="content">
+            <div class="some">
+                <a href="#">
+                    <img src="/images/icons/instagram.png" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="images/icons/facebook.png" alt="Facebook">
+                </a>
+            </div>
+            <div class="contact">
+                <div class="address">
+                    <a class="big-link" href="mailto:info@samt.ch">info@samt.ch</a>
+                    <p>Holzikofenweg 8</p>
+                    <p>3007 Bern</p>
+                </div>
+                <div class="information">
+                    <a class="big-link" href="tel:+41 79 842 95 68">+41 79 842 95 68</a>
+                    <a href="Impressum">Impressum</a>
+                    <a href="Jobs">Jobs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

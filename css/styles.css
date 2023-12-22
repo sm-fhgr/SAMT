@@ -25,13 +25,15 @@ header{
   position: fixed;
   width: 100vw;
   width: 100svw;
+  top: 0;
 }
 .flex-grid-header {
   display: flex;
   justify-content: space-between;
-  margin: 0 50px;
+  padding: 0 50px;
   height: 80px;
   align-items: center;
+  backdrop-filter: blur(15px);
 }
 
 .flex-grid-header .col {
@@ -103,6 +105,9 @@ header{
   width: 40px;
   height: 40px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  z-index: 3;
 }
 .burger-line{
   display: block;
@@ -110,6 +115,7 @@ header{
   border-radius: 3px;
   background-color: black;
   position: relative;
+  width: 100%;
 }
 .burger-line::before, .burger-line::after{
   content: "";

@@ -9,16 +9,6 @@
         flex-direction: column;
       }
 
-      .flex-grid-header {
-        display: flex;
-        flex-direction: column;
-        padding-top: 5%;
-        padding-bottom: 5px;
-        padding-left: 1%;
-        padding-right: 1%;
-        justify-content: space-between;
-      }
-
       .flex-grid-header .col {
         max-width: 100%;
         width: 100%;
