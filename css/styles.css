@@ -21,14 +21,17 @@ main {
 .col {
   flex: 1;
 }
-
+header{
+  position: fixed;
+  width: 100vw;
+  width: 100svw;
+}
 .flex-grid-header {
   display: flex;
-  padding-top: 5%;
-  padding-bottom: 5px;
-  padding-left: 1%;
-  padding-right: 1%;
   justify-content: space-between;
+  margin: 0 50px;
+  height: 80px;
+  align-items: center;
 }
 
 .flex-grid-header .col {
@@ -90,8 +93,39 @@ main {
   text-align: right;
   align-content: right;
   justify-content: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  top: 0;
 }
-
+.menu-burger{
+  all: unset;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.burger-line{
+  display: block;
+  height: 3px;
+  border-radius: 3px;
+  background-color: black;
+  position: relative;
+}
+.burger-line::before, .burger-line::after{
+  content: "";
+  width: 30px;
+  height: 3px;
+  border-radius: 3px;
+  position: absolute;
+  background-color: black;
+  right: 0;
+}
+.burger-line::before{
+  top: -10px;
+}
+.burger-line::after{
+  top: 10px;
+}
 #landingpage {
   flex-direction: column;
   justify-content: center;
