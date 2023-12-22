@@ -233,6 +233,12 @@ h1, h2, h3 {
   text-align: left; 
   background-color:  rgba(245, 245, 245, 0.3);
 }
+#angebotcolstyle p {
+  font-size: 3.8;
+  color: aliceblue;
+  text-align: left;
+  
+}
 
 .angebot-page .col img {
   max-width: 100%;
