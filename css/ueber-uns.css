@@ -9,7 +9,16 @@
     font-family: 'Urbanist';
     src: url('/fonts/Urbanist.ttf');
 }
+body {
 
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    margin: 0%;
+  }
 *{
     --mainDark: #1b1b1b;
     --mainBright: #f5e2ff;

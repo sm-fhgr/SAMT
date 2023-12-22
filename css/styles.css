@@ -20,15 +20,18 @@ main {
 .flex-grid {
   display: flex;
 }
+
 .col {
   flex: 1;
 }
+
 header{
   position: fixed;
   width: 100vw;
   width: 100svw;
   top: 0;
 }
+
 .flex-grid-header {
   display: flex;
   justify-content: space-between;
