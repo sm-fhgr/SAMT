@@ -11,7 +11,7 @@
 
 
 body {
-  background-image: url(../images/bg3.jpg);
+  background-image: url(../images/bgimg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -20,7 +20,12 @@ body {
   margin: 0%;
 }
 
-
+nav {
+  background-color: rgba(245, 245, 245, 0.3);
+  backdrop-filter: blur(15px);
+  padding: 0%;
+  margin: 0%;
+}
 
 main {
   padding: 0%;
@@ -55,15 +60,14 @@ header{
 
 .flex-grid-2col {
   display: flex;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0%;
+  padding-bottom: 0%;
   padding-left: 0%;
   padding-right: 0%;
   justify-content: space-between;
 }
 
 .flex-grid-2col .col {
-  background-color: rgba(245, 245, 245, 0.3);
   width: 50%;
   column-gap: 0cap;
   padding-top: 0%;
@@ -76,17 +80,18 @@ header{
   max-width: 100%;
   padding-top: 0%;
   padding-bottom: 0%;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .flex-grid-2col .col h1 {
   padding-left: 2%;
   font-size: 3pc;
   color: white;
+  font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.flex-grid-2col .col h2 {
+.flex-grid-2col .col p {
   padding-left: 2%;
   font-size: 1.5pc;
   color: white;
@@ -99,7 +104,7 @@ header{
 }
 
 #logo {
-  padding-top: 10px;
+  padding-top: 1%;
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -128,19 +133,9 @@ header{
 
 #Events {}
 
-#imgleft {
-  max-width: 100%;
-  height: 50vh;
-  height: 50svh;
-  object-fit: cover;
-  object-position: 25% 25%;
-  text-align: left;
-}
 
 #imgright {
   max-width: 100%;
-  height: 50vh;
-  height: 50svh;
   text-align: right;
 }
 
@@ -276,3 +271,5 @@ footer a, footer p{
   display: flex;
   justify-content: space-around;
 }
+
+#footerref
