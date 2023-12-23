@@ -14,15 +14,12 @@
         width: 100%;
       }
 
-      #home {
-        display: none;
-      }
       
       #logo {
         text-align: center;
       }
       
-      #navsearch {
+      #burgernav {
         text-align: center;
       }
 

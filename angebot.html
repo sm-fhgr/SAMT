@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/angebot.css">
 </head>
 <body>
     
@@ -14,17 +15,24 @@
 
 <body>
     <header>
-    <div class="flex-grid-header">    
-        <div class="col" id="home">
-            <a href="index.html"><img id="bg" src="..\images\\icons\haus.png" alt="Home" width="50" height="50"></a>
+        <div class="flex-grid-header">
+            <div id="logo">
+                <a href="/index.html">
+                    <img src="..\images\logo-samt-header-dark.png " alt="SAMT Logo" class="logo" width="auto"
+                        height="50">
+                </a>
+            </div>
+                <input type="checkbox" name="menu" id="menu">
+                <label for="menu" class="menu-burger">
+                    <span class="burger-line"></span>
+                </label>
+                <div class="full-menu">
+                    <a href="/index.html">Home</a>
+                    <a href="/angebot.html">Angebot</a>
+                    <a href="/ueber-uns.html">Über uns</a>
+                    <a href="/kontakt">Kontakt</a>
+                </div>
         </div>
-        <div class="col" id="logo">
-            <img src="..\images\logo-samt-header-dark.png" alt="SAMT Logo" class="logo" width="200" height="90">
-        </div>
-        <div class="col" id="navsearch">
-        <a href=""> <img src="..\images\icons\lupe.png" alt="search" width="50" height="50"> <img src="..\images\icons\burger.png" alt="menuburger" width="50" height="50"> </a>
-        </div>
-    </div>
     </header>
 
     
@@ -40,11 +48,20 @@
 
          <div class="flex-grid" id="angebotcolstyle">
               <h4>Mehr als 20 einzigartige Locations.</h4>
+              <p>Wir machen Platz für Kultur. Ein leerstehendes Wohnhaus, 
+                eine Quartierbeiz oder ein verlassener Schlachthof? 
+                Wir haben die passende Location für dein Event.</p>
               
         </div>
             
         <div class="flex-grid" id="angebotcolstyle">
               <h6>Bist du bereit, dein Event mit SAMT zu verwirklichen?</h6>
+              <p>Wir wissen, dass die Planung und Durchführung einer Veranstaltung
+                eine überwältigende Aufgabe sein kann, besonders wenn du
+                ein unabhängige*r Künstler*in oder Student*in bist. Wir bieten eine
+                Vielzahl von Dienstleistungen an und sind immer bereit,
+                mit dir zusammenzuarbeiten, um Lösungen zu finden,
+                die deinen individuellen Bedürfnissen entsprechen.</p>
          </div>
           
 
@@ -131,13 +148,29 @@
         
     </main>
     
-    <footer id="grid-footer">
-        <p>©️SAMT 2024</p>
-        <a href="#">Impressum</a>
-        <a href="#">Kontakt</a>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Youtube</a>
+    <footer>
+        <div class="content">
+            <div class="some">
+                <a href="#">
+                    <img src="/images/icons/instagram.png" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="images/icons/facebook.png" alt="Facebook">
+                </a>
+            </div>
+            <div class="contact">
+                <div class="address">
+                    <a class="big-link" href="mailto:info@samt.ch">info@samt.ch</a>
+                    <p>Holzikofenweg 8</p>
+                    <p>3007 Bern</p>
+                </div>
+                <div class="information">
+                    <a class="big-link" href="tel:+41 79 842 95 68">+41 79 842 95 68</a>
+                    <a href="Impressum">Impressum</a>
+                    <a href="Jobs">Jobs</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </div>
 </div>
