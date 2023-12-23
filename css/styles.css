@@ -305,4 +305,6 @@ footer a, footer p{
   justify-content: space-around;
 }
 
-#footerref
+#footerref{
+  max-width: 100%;
+}
