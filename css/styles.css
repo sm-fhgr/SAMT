@@ -36,9 +36,11 @@ main {
 .flex-grid {
   display: flex;
 }
+
 .col {
   flex: 1;
 }
+
 header{
   position: fixed;
   width: 100vw;
@@ -71,7 +73,6 @@ header{
 
 .flex-grid-2col .col {
   width: 50%;
-  column-gap: 0cap;
   padding-top: 0%;
   padding-bottom: 0%;
   padding-left: 0%;
@@ -143,6 +144,7 @@ header{
   color: black;
   line-height: 3pc;
   font-size: 7pc;
+  font-weight: 500;
 }
 
 #claim p {
@@ -153,6 +155,24 @@ header{
 
 #Events {
   padding-top: 6%;
+}
+
+.flex-grid-2col #col1 {
+  background: url(../images/konzedited.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-grid-2col #col2 {
+  background: url(../images/aseatatthetableedited.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-grid-2col #col3 {
+  background: url(../images/patinavol2edited.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flex-grid-2col #gradbg {
