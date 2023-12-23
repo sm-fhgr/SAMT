@@ -8,4 +8,4 @@
 - Saurabh
 
 ## Idee
-[Link Text](htttps://fhgr.ch)
+[SAMT | Kunst Leben](https://543894-9.web.fhgr.ch/)
