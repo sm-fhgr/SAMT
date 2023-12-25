@@ -15,25 +15,35 @@
 
 <body>
     <header>
-        <div class="flex-grid-header">
-            <div id="logo">
-                <a href="/index.html">
-                    <img src="..\images\logo-samt-header-dark.png " alt="SAMT Logo" class="logo" width="auto"
-                        height="50">
-                </a>
+            
+        <div class="flex-grid-header">    
+            
+            <div class="col" id="home">
+                <a href="index.html"><img id="home" src="..\images\icons\haus.png" alt="Home" width="50" height="50"></a>
             </div>
-                <input type="checkbox" name="menu" id="menu">
-                <label for="menu" class="menu-burger">
-                    <span class="burger-line"></span>
-                </label>
-                <div class="full-menu">
-                    <a href="/index.html">Home</a>
-                    <a href="/angebot.html">Angebot</a>
-                    <a href="/ueber-uns.html">Über uns</a>
-                    <a href="/kontakt">Kontakt</a>
-                </div>
+            
+            <div class="col" id="logo">
+                <a href="index.html"><img src="..\images\logo-samt-header-dark.png" alt="SAMT Logo" class="logo" width="auto" height="80"></a>
+            </div>
+            
+            <div class="col" id="burgernav">
+                <img src="..\images\icons\burger.png" alt="menuburger" width="50" height="50"> </a>
+            </div>
+        
         </div>
+
+        <nav>
+            <ul>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="angebot.html">Angebote</a></li>
+                <li><a href="ueber-uns.html">Über uns</a></li>
+                <li><a href="#footerref">Kontakt</a></li>
+                
+            </ul>
+        </nav>
+
     </header>
+
 
     
     <main>
@@ -45,24 +55,32 @@
             <h3> ANGEBOT </h3>
         
         </div>
-
-         <div class="flex-grid" id="angebotcolstyle">
-              <h4>Mehr als 20 einzigartige Locations.</h4>
+        <section id="uebersch">
+            <div class="col">
+                <h3>Mehr als 20 einzigartige
+                    Locations.</h3>
               <p>Wir machen Platz für Kultur. Ein leerstehendes Wohnhaus, 
                 eine Quartierbeiz oder ein verlassener Schlachthof? 
-                Wir haben die passende Location für dein Event.</p>
-              
+                Wir haben die passende Location für dein Event.
+                </p>
+  
         </div>
+    </div>
+    <section id="ueberschrift">
+        <div class="col">
+            <h4>Bist du bereit, dein Event mit 
+                SAMT zu verwirklichen?</h4>
+          <p>Wir wissen, dass die Planung und Durchführung einer Veranstaltung
+            eine überwältigende Aufgabe sein kann, besonders wenn du
+            ein unabhängige*r Künstler*in oder Student*in bist. Wir bieten eine
+            Vielzahl von Dienstleistungen an und sind immer bereit,
+            mit dir zusammenzuarbeiten, um Lösungen zu finden,
+            die deinen individuellen Bedürfnissen entsprechen.
+          </p>
+
+    </div>
             
-        <div class="flex-grid" id="angebotcolstyle">
-              <h6>Bist du bereit, dein Event mit SAMT zu verwirklichen?</h6>
-              <p>Wir wissen, dass die Planung und Durchführung einer Veranstaltung
-                eine überwältigende Aufgabe sein kann, besonders wenn du
-                ein unabhängige*r Künstler*in oder Student*in bist. Wir bieten eine
-                Vielzahl von Dienstleistungen an und sind immer bereit,
-                mit dir zusammenzuarbeiten, um Lösungen zu finden,
-                die deinen individuellen Bedürfnissen entsprechen.</p>
-         </div>
+       
           
 
         <div class="flex-grid-2col">
@@ -149,6 +167,10 @@
     </main>
     
     <footer>
+
+
+        <section id="footerref"></section>
+
         <div class="content">
             <div class="some">
                 <a href="#">
@@ -171,6 +193,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
 </div>
 </div>

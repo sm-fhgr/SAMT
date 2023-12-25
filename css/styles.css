@@ -299,6 +299,7 @@ footer a, footer p{
 
 #angebotcolstyle h1 {
   font-size: 2.5pc; 
+  line-height: 150%;
 }
 
 #angebotcolstyle h2 {
@@ -310,36 +311,14 @@ footer a, footer p{
   color: black;
   text-align: center; 
 }
-#angebotcolstyle h4 {
-  font-size: 7pc; 
-  color: black;
-  background-color:  rgb(255, 254, 254);
-}
-#angebotcolstyle h5 {
-  font-size: 3.8pc; 
-  color: rgb(0, 0, 0);
-  text-align: left; 
-  background-color:  rgb(255, 253, 253);
-}
-#angebotcolstyle h6 {
-  font-size: 7pc; 
-  color: rgb(255, 255, 255);
-  text-align: left; 
-  background-color:  rgba(245, 245, 245, 0.3);
-}
-#angebotcolstyle h7 {
-  font-size: 3.8pc; 
-  color: rgb(255, 255, 255);
-  text-align: left; 
-  background-color:  rgba(245, 245, 245, 0.3);
-}
+
+
 #angebotcolstyle p {
   font-size: 3.8;
   color: aliceblue;
   text-align: left;
   
 }
-
 .angebot-page .col img {
   max-width: 100%;
   padding: 0;
@@ -347,11 +326,33 @@ footer a, footer p{
     transition: filter 0.3s;
 }
 
-
 .angebot-page .col img:hover {
   filter: saturate(100%); }
 
-.angebot-page .body {
-  background-image: url(../images/wusch2.jpg);
-}
+  #uebersch h3{
+    color: black;
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 500;
+    font-family:'urbanist';
+  }
+  #uebersch h4{
+    color: white;
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 500;
+    font-family:'urbanist';
+  }
+  
+  #uebersch p{
+    padding-top: 5%;
+    font-size: 2pc;
+    padding-bottom: 6%;
+  }
+  #ueberschschrift h5{
+    padding-top: 5%;
+    font-size: 2pc;
+    padding-bottom: 6%;
+    color: white;
+  }
 
