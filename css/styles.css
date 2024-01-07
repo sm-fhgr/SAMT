@@ -40,9 +40,8 @@ h2 {
 
 /* Header style */
 
-header{
+header {
   position: fixed;
-  width: 100vw;
   width: 100svw;
 }
 
@@ -64,15 +63,11 @@ header{
 
 #home {
   text-align: left;
-  align-content: center;
-  justify-content: center;
 }
 
 #logo {
   padding-top: 2px;
   text-align: center;
-  align-content: center;
-  justify-content: center;
 }
 
 #burgernav {
@@ -193,6 +188,7 @@ main {
   padding-top: 5%;
   font-size: 2pc;
   padding-bottom: 6%;
+  font-weight: 300;
 }
 
 /* Events section */

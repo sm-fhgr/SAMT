@@ -5,8 +5,25 @@
  
 {
 
+  .flex-grid-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    height: 80px;
+    align-items: center;
+    backdrop-filter: blur(15px);
+  }
+
+  .flex-grid-header .col {
+    max-width: 100%;
+    width: 100%;
+  }
+
     #burgernav { 
-        display: none; 
+        width: 0%; 
+        display: none;
       }
 
       #logo {
@@ -34,19 +51,14 @@
         font-size: 2pc;
       }
 
-      #claim p {
-        font-size: 1.5pc;
+      #claim h2 {
+        font-size: 1pc;
         padding-top: 10%;
       }
 
     .flex-grid {
         display: flex;
         flex-direction: column;
-      }
-
-      .flex-grid-header .col {
-        max-width: 100%;
-        width: 100%;
       }
 
 
@@ -104,6 +116,3 @@
         font-size: 1pc;
       }
 }
-
-
-
