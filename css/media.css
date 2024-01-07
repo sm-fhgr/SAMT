@@ -4,6 +4,40 @@
 @media only screen and (max-width: 600px)
  
 {
+
+    #burgernav { 
+        display: none; 
+      }
+
+      #logo {
+        text-align: center;
+      }
+
+      #home { 
+        display: none; 
+      }
+
+      nav li a {
+        font-size: 1pc;
+      }
+
+      #textA h1 {
+        padding-top: 55%;
+      }
+
+      #claim .col {
+        padding-top: 40%;
+      }
+
+      #claim h1 {
+        font-size: 2pc;
+      }
+
+      #claim p {
+        font-size: 1.5pc;
+        padding-top: 10%;
+      }
+
     .flex-grid {
         display: flex;
         flex-direction: column;
@@ -14,18 +48,14 @@
         width: 100%;
       }
 
-      
-      #logo {
-        text-align: center;
-      }
-      
-      #burgernav {
-        text-align: center;
-      }
 
       #landingpage {
         padding: 0%;
         margin: 0%;
+      }
+
+      #landingpage h1{
+        padding-left: 5%;
       }
      
       h1 {
@@ -37,6 +67,15 @@
         text-align: left;
         font-size: 1pc;
       }
+
+      #Events {
+        padding-top: 29%;
+      }
+
+      #column2 .flex-grid-2col {
+        flex-direction: column-reverse;
+      }
+
       .flex-grid-2col .col h1 {
         font-size: 2pc;
       }
@@ -56,6 +95,14 @@
         max-width: 99%;
       }
 
+      .flex-grid-2col#Events {
+        flex-direction: column;
+        order: 1 2 4 3;
+      }
+
+      .big-link {
+        font-size: 1pc;
+      }
 }
 
 

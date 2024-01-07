@@ -284,6 +284,11 @@ footer a, footer p{
   max-width: 100%;
 }
 
+/* Hover Effect */
+
+a:hover{
+  background-color: #ffffff;
+}
 
 /* For angebot.html */
 
