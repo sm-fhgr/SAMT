@@ -10,6 +10,79 @@
 }
 
 
+/* For angebot.html, transferred from styles.css */
+
+#smalimg  {
+  width: 200px;
+}
+
+
+#smalimg {
+  width: 600px;
+  
+  }
+
+#angebotcolstyle h1 {
+  font-size: 2.5pc; 
+  line-height: 150%;
+}
+
+#angebotcolstyle h2 {
+  font-size: 0.8pc; 
+}
+
+#angebotcolstyle h3 {
+  font-size: 19.8pc; 
+  color: black;
+  text-align: center; 
+}
+
+
+#angebotcolstyle p {
+  font-size: 3.8;
+  color: aliceblue;
+  text-align: left;
+  
+}
+.angebot-page .col img {
+  max-width: 100%;
+  padding: 0;
+  filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.angebot-page .col img:hover {
+  filter: saturate(100%); }
+
+  #uebersch h3{
+    color: black;
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 500;
+    font-family:'urbanist';
+  }
+  #uebersch h4{
+    color: white;
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 500;
+    font-family:'urbanist';
+  }
+  
+  #uebersch p{
+    padding-top: 5%;
+    font-size: 2pc;
+    padding-bottom: 6%;
+  }
+  #ueberschschrift h5{
+    padding-top: 5%;
+    font-size: 2pc;
+    padding-bottom: 6%;
+    color: white;
+  }
+
+
+
     a{
         all: unset;
         cursor: pointer;
