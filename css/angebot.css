@@ -102,8 +102,10 @@ h1 {
     padding-bottom: 6%;
   }
 
-  #ueberschschrift {
+  #ueberschrift {
     background-image: url(../images/eventbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #ueberschschrift h5{
     padding-top: 5%;
