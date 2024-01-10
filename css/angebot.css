@@ -16,10 +16,34 @@
   width: 200px;
 }
 
+main {
+  padding: 0%;
+  margin: 0%;
+}
+
+h1 {
+  padding-top: 20%;
+  padding-bottom: 0%;
+  font-size: 20pc;
+  color: black;
+}
+
+.flex-grid-2col {
+  display: flex;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  justify-content: space-between;
+}
 
 #smalimg {
   max-width: 100%;
   }
+
+#angebotcolstyle {
+  padding: 0%;
+}
 
 #angebotcolstyle h1 {
   font-size: 2.5pc; 
@@ -53,6 +77,10 @@
 .angebot-page .col img:hover {
   filter: saturate(100%); }
 
+  #uebersch {
+    background-color: white;
+  }
+
   #uebersch h3{
     color: black;
     line-height: 6pc;
@@ -73,12 +101,17 @@
     font-size: 2pc;
     padding-bottom: 6%;
   }
+
+  #ueberschschrift {
+    background-image: url(../images/eventbg.png);
+  }
   #ueberschschrift h5{
     padding-top: 5%;
     font-size: 2pc;
     padding-bottom: 6%;
     color: white;
   }
+
 
   header a {
     font-family: 'Urbanist';
