@@ -53,8 +53,7 @@ h1 {
   padding-left: 0%;
   padding-right: 0%;
   justify-content: space-between;
-  background-image: url();
-  background-color: #4F4FFF; /* I want wusch1.jpg as background */
+  background-image: url(../images/wusch1.jpg);
 }
 
 .flex-grid-2col {
