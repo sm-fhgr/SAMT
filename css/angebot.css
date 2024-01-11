@@ -46,8 +46,6 @@ h1 {
   font-family: 'urbanist'light;
   margin-left: 2%;
 }
-
-
 .flex-grid {
   display: flex;
   padding-top: 0%;
@@ -55,7 +53,8 @@ h1 {
   padding-left: 0%;
   padding-right: 0%;
   justify-content: space-between;
-  background-image: url(../images/wusch1.jpg);
+  background-image: url();
+  background-color: #4F4FFF; /* I want wusch1.jpg as background */
 }
 
 .flex-grid-2col {
