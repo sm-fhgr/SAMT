@@ -10,63 +10,72 @@
 }
 
 
-/* For angebot.html, transferred from styles.css */
-
-#smalimg  {
-  width: 200px;
-}
-
-main {
+#hintergrund {
+  background-image: url(DSC_0670.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   padding: 0%;
   margin: 0%;
+  background-color: white;
 }
+
 
 h1 {
   padding-top: 20%;
   padding-bottom: 0%;
-  font-size: 20pc;
+  font-size: 15pc;
   color: black;
+  font-family: 'tttravelsnextblackitalic';
 }
 
-.flex-grid-2col {
+.angebotheading {
+  padding-top: 20%;
+  padding-bottom: 0%;  
+  font-size: 3pc;
+  color: black;
+  font-family: 'urbanist';
+  margin-left: 2%;
+}
+.angebottext {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: 1pc;
+  color: black;
+  font-family: 'urbanist'light;
+  margin-left: 2%;
+}
+.flex-grid {
   display: flex;
   padding-top: 0%;
   padding-bottom: 0%;
   padding-left: 0%;
   padding-right: 0%;
   justify-content: space-between;
+  background-image: url();
+  background-color: #4F4FFF; /* I want wusch1.jpg as background */
 }
 
-#smalimg {
-  max-width: 100%;
-  }
-
-#angebotcolstyle {
-  padding: 0%;
+.flex-grid-2col {
+  display: flex;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%; 
+  padding-right: 0%;
+  justify-content: space-between;
 }
 
-#angebotcolstyle h1 {
-  font-size: 2.5pc; 
-  line-height: 150%;
-}
-
-#angebotcolstyle h2 {
-  font-size: 0.8pc; 
-}
-
-#angebotcolstyle h3 {
-  font-size: 19.8pc; 
-  color: black;
-  text-align: center; 
-}
-
-
-#angebotcolstyle p {
-  font-size: 3.8;
-  color: aliceblue;
-  text-align: left;
+.bild {
+  width: 98%;
+  padding-top: 0%;
+  padding-bottom: 4%;
+  padding-left:4%;
+  padding-right:2%;
   
 }
+
+
 .angebot-page .col img {
   max-width: 100%;
   padding: 0;
@@ -81,19 +90,21 @@ h1 {
     background-color: white;
   }
 
-  #uebersch h3{
+  
+  h3{
     color: black;
     line-height: 6pc;
     font-size: 7pc;
     font-weight: 500;
     font-family:'urbanist';
   }
-  #uebersch h4{
-    color: white;
-    line-height: 6pc;
+  .gradient {
+    background-repeat: no-repeat;
     font-size: 7pc;
-    font-weight: 500;
-    font-family:'urbanist';
+    background-size: cover;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: 'urbanist';
   }
   
   #uebersch p{
@@ -105,15 +116,18 @@ h1 {
   #ueberschrift {
     background-image: url(../images/eventbg.png);
     background-repeat: no-repeat;
+    font-size: 7pc;
     background-size: cover;
+    padding-top: 0%;
+    padding-bottom: ;
+    font-family: 'urbanist';
   }
-  #ueberschschrift h5{
-    padding-top: 5%;
+  #ueberschrift p{
+    padding-top: 0%;
     font-size: 2pc;
-    padding-bottom: 6%;
-    color: white;
+    padding-bottom: 0%;
   }
-
+  
 
   header a {
     font-family: 'Urbanist';
