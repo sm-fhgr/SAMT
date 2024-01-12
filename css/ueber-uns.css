@@ -9,6 +9,17 @@
     font-family: 'Urbanist';
     src: url('/fonts/Urbanist.ttf');
 }
+body {
+
+    background-image: url(../images/background.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    margin: 0%;
+  }
+
 
 *{
     --mainDark: #1b1b1b;
@@ -84,6 +95,13 @@ h2, h3, h4, p, a, label{
     font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+h2
+{ color: var(--mainDark);
+font-size: 100px;
+
+}
+
 .content{
     max-width: 1000px;
     margin: 0 auto;
@@ -107,10 +125,10 @@ h2, h3, h4, p, a, label{
     padding-bottom: 100px;
 }
 .introduction{
-    background: rgb(192,134,209);
-    background: linear-gradient(180deg, rgba(192,134,209,1) 0%, rgba(248,161,183,1) 100%);
-    padding: 20px 50px;
-    color: var(--white);
+
+    background-color: var(--white);
+    padding: 20px 0px;
+    color: var(--mainDark);
 }
 .introduction h2{
     font-weight: 500;
@@ -120,7 +138,22 @@ h2, h3, h4, p, a, label{
 }
 .introduction p{
     font-weight: 300;
+    font-size: 20px;
 }
+
+.videosection{
+    background: rgb(249,210,255);
+    background: linear-gradient(214deg, rgba(249,210,255,1) 13%, rgba(37,28,246,1) 97%);
+    padding: 150px 100px;
+}
+
+.videosection p {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
 .team-accordion{
     padding: 100px 0;
 }
