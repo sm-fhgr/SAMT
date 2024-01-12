@@ -24,6 +24,16 @@ body {
   margin: 0%;
 }
 
+body.ueberuns {
+  background-image: url(../images/background.png); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0%;
+  margin: 0%;
+}
+
 h1 {
   font-size: 7pc;
   color: white;
