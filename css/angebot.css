@@ -23,29 +23,39 @@
 
 
 h1 {
-  padding-top: 20%;
+  padding-top: 29%;
   padding-bottom: 0%;
   font-size: 15pc;
   color: black;
   font-family: 'tttravelsnextblackitalic';
+
 }
 
+
+
 .angebotheading {
-  padding-top: 20%;
+  padding-top: 0%;
   padding-bottom: 0%;  
   font-size: 3pc;
   color: black;
   font-family: 'urbanist';
   margin-left: 2%;
+  font-weight: 300;
+  
 }
 .angebottext {
   padding-top: 0%;
   padding-bottom: 0%;
   font-size: 1pc;
   color: black;
-  font-family: 'urbanist'light;
+  font-family: 'urbanist';
   margin-left: 2%;
+  margin-right: 2%;
+  font-weight: 400;
+  line-height: 2pc;
+  
 }
+
 .flex-grid {
   display: flex;
   padding-top: 0%;
@@ -53,25 +63,31 @@ h1 {
   padding-left: 0%;
   padding-right: 0%;
   justify-content: space-between;
-  background-image: url();
-  background-color: #4F4FFF; /* I want wusch1.jpg as background */
+  background-image: url('wusch1.jpg'); /* Set the background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col {
+  flex-basis: 50%;
+  padding: 0%;
+  margin: 0%;
 }
 
 .flex-grid-2col {
   display: flex;
   padding-top: 0%;
-  padding-bottom: 0%;
+  padding-bottom: 2%;
   padding-left: 0%; 
   padding-right: 0%;
   justify-content: space-between;
 }
 
 .bild {
-  width: 98%;
+  width: 95%;
   padding-top: 0%;
-  padding-bottom: 4%;
-  padding-left:4%;
-  padding-right:2%;
+  padding-bottom: 0%;
+  padding-left:9%;
+  padding-right:0%;
   
 }
 
@@ -88,14 +104,17 @@ h1 {
 
   #uebersch {
     background-color: white;
+    padding-top: 0%;
+    padding-bottom: 4%;
+    margin-left: 0;
   }
-
   
+
   h3{
-    color: black;
+    color: rgb(255, 255, 255)55, 255, 255);
     line-height: 6pc;
     font-size: 7pc;
-    font-weight: 500;
+    font-weight: 400;
     font-family:'urbanist';
   }
   .gradient {
@@ -108,9 +127,10 @@ h1 {
   }
   
   #uebersch p{
-    padding-top: 5%;
+    padding-top: 0%;
     font-size: 2pc;
-    padding-bottom: 6%;
+    padding-bottom: 0%;
+    font-weight: 400;
   }
 
   #ueberschrift {
@@ -121,11 +141,14 @@ h1 {
     padding-top: 0%;
     padding-bottom: ;
     font-family: 'urbanist';
+    color: white;
   }
   #ueberschrift p{
     padding-top: 0%;
     font-size: 2pc;
     padding-bottom: 0%;
+    color: white;
+    font-weight: 400;
   }
   
 
@@ -148,8 +171,8 @@ h1 {
 
     
         footer{
-            padding: 50px;
-            min-height: 300px;
+            padding: 60px;
+            min-height: 200px;
             background-color: #4F4FFF;
           }
           footer a{
@@ -197,6 +220,15 @@ h1 {
     .team-content img{
         margin: 1rem;
     }
+    .flex-grid-2col {
+      flex-direction: column ;
+    }
+
+    .bild {
+      width: 100%; 
+      margin-top: 1rem; 
+    }
+
     .contact{
         flex-direction: column;
     }
