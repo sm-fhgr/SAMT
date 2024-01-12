@@ -10,8 +10,8 @@
 }
 
 
-#hintergrund {
-  background-image: url(DSC_0670.jpg);
+body.angebotbg {
+  background-image: url(../images/DSC_0670.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
