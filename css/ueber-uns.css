@@ -9,7 +9,8 @@
     font-family: 'Urbanist';
     src: url('/fonts/Urbanist.ttf');
 }
-body {
+
+body.ueberuns {
 
     background-image: url(../images/background.png); 
     background-repeat: no-repeat;
