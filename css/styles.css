@@ -173,7 +173,7 @@ main {
   padding-top: 8%;
   width: 100%;
   min-height: 100vh;
-  min-height: 90svh;
+  min-height: 100svh;
 }
 
 #landingpage h1 {
@@ -189,6 +189,8 @@ main {
   font-family: 'Urbanist';
   padding-left: 2%;
   padding-top: 6%;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 #claim h1 {
@@ -213,7 +215,7 @@ main {
 
 #Events {
   font-family: 'Urbanist';
-  padding-top: 6%;
+  padding-top: 5%;
 }
 
 #Events h1 {
