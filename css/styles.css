@@ -205,7 +205,12 @@ main {
 /* Events section */
 
 #Events {
+  font-family: 'Urbanist';
   padding-top: 6%;
+}
+
+#Events h1 {
+  display: none;
 }
 
 #Events h2 {
@@ -300,4 +305,15 @@ footer a, footer p{
 
 a:hover{
   border-bottom: 2px solid black;
+}
+
+/* For Validator */
+
+.validator {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+.validator h1 {
+  display: none;
 }
