@@ -48,11 +48,11 @@
 
 
       #claim h1 {
-        font-size: 2pc;
+        font-size: 3pc;
       }
 
       #claim h2 {
-        font-size: 1pc;
+        font-size: 1.5pc;
         padding-top: 10%;
       }
 
@@ -67,9 +67,6 @@
         margin: 0%;
       }
 
-      #landingpage h1{
-        padding-left: 5%;
-      }
      
       h1 {
         text-align: left;

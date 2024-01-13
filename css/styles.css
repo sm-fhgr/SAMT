@@ -38,6 +38,8 @@ body.ueberuns {
 h1 {
   font-size: 7pc;
   color: white;
+  margin: 0%;
+  padding: 0%;
 }
 
 h2, p, a {
@@ -176,8 +178,9 @@ main {
 
 #landingpage h1 {
   text-transform: uppercase;
-  line-height: 5pc;
   font-family: 'TTTravelsNextBlackItalic';
+  margin: 0%;
+  padding: 0%;
 }
 
 /* Claim  section */
@@ -190,16 +193,20 @@ main {
 
 #claim h1 {
   color: black;
-  line-height: 3pc;
   font-size: 7pc;
   font-weight: 500;
 }
 
 #claim h2 {
+  margin: 0%;
   padding-top: 5%;
   font-size: 2pc;
   padding-bottom: 6%;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+#claimtext {
+  padding-top:1%;
 }
 
 /* Events section */
@@ -214,6 +221,7 @@ main {
 }
 
 #Events h2 {
+  margin: 0%;
   color: white;
   font-size:3pc;
   padding: 2%;
@@ -310,10 +318,10 @@ a:hover{
 /* For Validator */
 
 .validator {
-  margin: 0%;
   padding: 0%;
   text-align: center;
 }
+
 .validator h1 {
   display: none;
 }
