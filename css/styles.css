@@ -191,6 +191,7 @@ main {
   padding-top: 6%;
   min-height: 100vh;
   min-height: 100svh;
+  background-color: whitesmoke;
 }
 
 #claim h1 {
