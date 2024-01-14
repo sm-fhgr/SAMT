@@ -10,8 +10,8 @@
 }
 
 
-#hintergrund {
-  background-image: url(DSC_0670.jpg);
+body.angebotbg {
+  background-image: url(../images/DSC_0670.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -21,16 +21,32 @@
   background-color: white;
 }
 
+#bigtext {
+  padding-top: 30%;
+}
+
+section {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+p {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
 h1 {
-  padding-top: 29%;
+  padding-top: 0%;
   padding-bottom: 0%;
   font-size: 15pc;
   color: black;
   font-family: 'tttravelsnextblackitalic';
-
+  margin: 0%;
 }
-
 
 
 .angebotheading {
@@ -56,31 +72,6 @@ h1 {
   
 }
 
-.flex-grid {
-  display: flex;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  padding-left: 0%;
-  padding-right: 0%;
-  justify-content: space-between;
-  background-image: url('wusch1.jpg'); /* Set the background image */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.col {
-  flex-basis: 50%;
-  padding: 0%;
-  margin: 0%;
-}
-
-.flex-grid-2col {
-  display: flex;
-  padding-top: 0%;
-  padding-bottom: 2%;
-  padding-left: 0%; 
-  padding-right: 0%;
-  justify-content: space-between;
-}
 
 .bild {
   width: 95%;
@@ -105,30 +96,31 @@ h1 {
   #uebersch {
     background-color: white;
     padding-top: 0%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
     margin-left: 0;
   }
   
 
   h3{
-    color: rgb(255, 255, 255)55, 255, 255);
+   
     line-height: 6pc;
     font-size: 7pc;
     font-weight: 400;
     font-family:'urbanist';
-  }
-  .gradient {
-    background-repeat: no-repeat;
-    font-size: 7pc;
-    background-size: cover;
     padding-top: 0%;
     padding-bottom: 0%;
-    font-family: 'urbanist';
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
+
   
   #uebersch p{
-    padding-top: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
     font-size: 2pc;
+    padding-top: 0%;
     padding-bottom: 0%;
     font-weight: 400;
   }
@@ -139,10 +131,10 @@ h1 {
     font-size: 7pc;
     background-size: cover;
     padding-top: 0%;
-    padding-bottom: ;
     font-family: 'urbanist';
     color: white;
   }
+
   #ueberschrift p{
     padding-top: 0%;
     font-size: 2pc;

@@ -38,7 +38,7 @@
         font-size: 1pc;
       }
 
-      #textA h1 {
+      #textA {
         padding-top: 55%;
       }
 
@@ -48,12 +48,13 @@
 
 
       #claim h1 {
-        font-size: 2pc;
+        font-size: 3pc;
       }
 
       #claim h2 {
-        font-size: 1pc;
-        padding-top: 10%;
+        font-size: 1.5pc;
+        padding-top: 15%;
+        padding-bottom: 6%;
       }
 
     .flex-grid {
@@ -66,11 +67,8 @@
         padding: 0%;
         margin: 0%;
       }
-
-      #landingpage h1{
-        padding-left: 5%;
-      }
      
+      
       h1 {
         text-align: left;
         font-size: 2pc;
@@ -82,7 +80,7 @@
       }
 
       #Events {
-        padding-top: 29%;
+        padding-top: 20%;
       }
 
       #column2 .flex-grid-2col {

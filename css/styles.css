@@ -24,9 +24,22 @@ body {
   margin: 0%;
 }
 
+body.ueberuns {
+  background-image: url(../images/background.png); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+
 h1 {
   font-size: 7pc;
   color: white;
+  margin: 0%;
+  padding: 0%;
 }
 
 h2, p, a {
@@ -165,8 +178,9 @@ main {
 
 #landingpage h1 {
   text-transform: uppercase;
-  line-height: 5pc;
   font-family: 'TTTravelsNextBlackItalic';
+  margin: 0%;
+  padding: 0%;
 }
 
 /* Claim  section */
@@ -175,29 +189,41 @@ main {
   font-family: 'Urbanist';
   padding-left: 2%;
   padding-top: 6%;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 #claim h1 {
   color: black;
-  line-height: 3pc;
   font-size: 7pc;
   font-weight: 500;
 }
 
 #claim h2 {
+  margin: 0%;
   padding-top: 5%;
   font-size: 2pc;
   padding-bottom: 6%;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+#claimtext {
+  padding-top:1%;
 }
 
 /* Events section */
 
 #Events {
-  padding-top: 6%;
+  font-family: 'Urbanist';
+  padding-top: 5%;
+}
+
+#Events h1 {
+  display: none;
 }
 
 #Events h2 {
+  margin: 0%;
   color: white;
   font-size:3pc;
   padding: 2%;
@@ -289,4 +315,15 @@ footer a, footer p{
 
 a:hover{
   border-bottom: 2px solid black;
+}
+
+/* For Validator */
+
+.validator {
+  padding: 0%;
+  text-align: center;
+}
+
+.validator h1 {
+  display: none;
 }
