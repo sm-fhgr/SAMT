@@ -49,6 +49,7 @@ h1 {
 }
 
 
+
 .angebotheading {
   padding-top: 0%;
   padding-bottom: 0%;  
@@ -71,6 +72,21 @@ h1 {
   line-height: 2pc;
   
 }
+#ueberschrift {
+  height: 700px; /* Ändere die Höhe nach Bedarf */
+}
+
+
+#ueberschrift .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ueberschrift .col a {
+  margin-top: 20px; /* Justiere den Abstand nach Bedarf */
+}
+
 
 
 .bild {
@@ -98,6 +114,7 @@ h1 {
     padding-top: 0%;
     padding-bottom: 5%;
     margin-left: 0;
+    height: 370px;
   }
   
 
@@ -142,12 +159,39 @@ h1 {
     color: white;
     font-weight: 400;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Pseudo-Klasse :target für den Link mit der ID "events" */
+  #events:target {
+    padding-top: 100px; /* Platzierung, um den Inhalt unter dem Header zu platzieren */
+  }
+  
+
+  .flex-grid-2col {
+    display: flex;
+    background-color: white; 
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: stretch;
+  }
   
 
   header a {
     font-family: 'Urbanist';
   
   }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Hier einen höheren Z-Index-Wert hinzufügen */
+  }
+  
 
 
     a{
