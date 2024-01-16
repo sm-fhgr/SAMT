@@ -42,7 +42,7 @@ p {
 h1 {
   padding-top: 0%;
   padding-bottom: 0%;
-  font-size: 15pc;
+  font-size: 14.6pc;
   color: black;
   font-family: 'tttravelsnextblackitalic';
   margin: 0%;
@@ -63,7 +63,7 @@ h1 {
 .angebottext {
   padding-top: 0%;
   padding-bottom: 0%;
-  font-size: 1pc;
+  font-size: 1.3pc;
   color: black;
   font-family: 'urbanist';
   margin-left: 2%;
@@ -84,7 +84,7 @@ h1 {
 }
 
 #ueberschrift .col a {
-  margin-top: 20px; /* Justiere den Abstand nach Bedarf */
+  margin-top: 20px; 
 }
 
 
@@ -245,51 +245,63 @@ h1 {
         font-size: 4pc;
         line-height: 4pc;
     }    
-    .teamcard input:checked ~ .team-details {
-        margin-top: 0px;
-    }
-        .team-content{
-        gap: 1rem;
-        flex-direction: column-reverse;
-        align-items: flex-start;
-    }
-    .team-content img{
-        margin: 1rem;
-    }
+
+  h3 {
+      font-size: 3.2pc; 
+      line-height: 2.8pc;
+  }
+  p {
+      font-size: 0.9pc; 
+      line-height: 2pc; 
+      font-weight: 530;
+  }
+
+  .angebotheading {
+      font-size: 2pc; 
+  }
+
+  .angebottext {
+      font-size: 0.8pc; 
+      line-height: 1.5pc; 
+  }
+  .scroll-arrow {
+    position: absolute;
+    bottom: -560px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
     .flex-grid-2col {
       flex-direction: column;
+    }
+
+    h1 {
+      font-size: 5pc; 
     }
 
     .bild {
       width: 100%; 
       margin-top: 1rem; 
     }
-
-    .contact{
-        flex-direction: column;
-    }
-    .full-menu{
-        opacity: 0;
-        position: fixed;
-        top: 0;
-        left: 100vw;
-        left: 100svw;
-        width: 100vw;
-        width: 100svw;
-        height: 100vh;
-        height: 100svh;
-        background: rgba(0,0,0,0.5);
-        z-index: 2;
-        display: flex;
-        padding: 5rem;
-        flex-direction: column;
-        color: white;
-        font-size: 2rem;
-        font-weight: 500;
-        justify-content: center;
-        gap: 1rem;
-        align-items: end;
-        transition: all 0.5s ease;
+      .hero h1{
+          font-size: 4pc;
+          line-height: 4pc;
+      }    
+      .teamcard input:checked ~ .team-details {
+          margin-top: 0px;
+      }
+          .team-content{
+          gap: 1rem;
+          flex-direction: column-reverse;
+          align-items: flex-start;
+      }
+      .team-content img{
+          margin: 1rem;
+      }
+      .contact{
+          flex-direction: column;
+      }
+      
+      }
     
-    }
-}
+   
