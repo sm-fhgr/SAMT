@@ -22,10 +22,7 @@ body {
 
 header {
   position: fixed;
-  width: 100%;
-  z-index: 1000; /* Hier einen höheren Z-Index-Wert hinzufügen */
-  font-family: 'Urbanist';
-    src: url('/fonts/Urbanist.ttf');
+  width: 100svw;
 }
 
 .flex-grid-header {
@@ -38,6 +35,63 @@ header {
   align-items: center;
   backdrop-filter: blur(15px);
 }
+
+.flex-grid-header .col {
+  width: 50%;
+}
+
+
+#home {
+  text-align: left;
+}
+
+#logo {
+  padding-top: 2px;
+  text-align: center;
+}
+
+#burgernav {
+  text-align: right;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  top: 0;
+}
+
+
+/* Nav style */
+
+
+nav {
+  background-color: rgba(245, 245, 245, 0.3);
+  backdrop-filter: blur(15px);
+  padding: 0%;
+  margin: 0%;
+}
+
+ul{   
+  border-radius: 10px;
+  padding: 5px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+}
+
+li a {
+  color: black;
+  font-size: 24px;
+}
+
+/* Main style */
+
+main {
+  padding: 0%;
+  margin: 0%;
+}
+
 
     a{
         all: unset;
