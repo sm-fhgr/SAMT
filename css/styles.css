@@ -46,10 +46,14 @@ h2, p, a {
   font-family: 'Urbanist';
 
 }
-.col {
-  flex: 1;
+
+h2 {
+  font-size: 2pc;
 }
-header{
+
+/* Header style */
+
+header {
   position: fixed;
   width: 100svw;
 }

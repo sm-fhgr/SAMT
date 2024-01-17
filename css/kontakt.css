@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'TTTravelsNext';
+    src: url('/fonts/TTTravelsNext.ttf');
+    font-family: 'TTTravelsNextBlackItalic';
+    src: url('/fonts/TTTravelsNextBlackItalic.ttf');
+}
+@font-face {
+    font-family: 'Urbanist';
+    src: url('/fonts/Urbanist.ttf');
+}
+
+
+body {
+  background-image: url(../images/DSC_0670.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Hier einen höheren Z-Index-Wert hinzufügen */
+  font-family: 'Urbanist';
+    src: url('/fonts/Urbanist.ttf');
+}
+
+.flex-grid-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  height: 80px;
+  align-items: center;
+  backdrop-filter: blur(15px);
+}
+
+    a{
+        all: unset;
+        cursor: pointer;
+        padding: 2px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.3s ease;
+    }
+    a:hover{
+        border-bottom: 1px solid var(--mainDark);}
+
+
+   section {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  p {
+    color: white;
+    font-size: 2pc;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+  }
+
+  
+  #bigtext {
+   padding-top: 9%;
+   padding-left: 2%;
+   padding-bottom: 33%;
+   }
+
+
+
+h1 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 8.6pc;
+    color: black;
+    font-family: 'tttravelsnextblackitalic';
+    margin: 0%;
+  }
+  
+  h3{
+   color: white;
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 400;
+    font-family:'urbanist';
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  #ueberschrift {
+    height: 30%; /* Ändere die Höhe nach Bedarf */
+    padding-top: 2%;
+    padding-bottom: 10%;
+    background-image: linear-gradient(#0909FE,#FDACC0);
+  }
+  
+
+#formular {
+  font-family: 'Urbanist';
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #FDACC0;
+  font-size: 1.5pc;
+  font-weight: 400;
+  line-height: 2pc;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: white;
+  
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+  width: 100%;
+  padding: 25px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  
+}
+
+input[type=submit] {
+  position: relative;
+  background-color: #ffffff;
+  color: #FDACC0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 1.5pc;
+  font-weight: 400;
+  line-height: 2pc;
+  
+}
+
+label { color:#FDACC0;}
+
+textarea {  resize: vertical;}
+
+
+    
+footer {
+  font-family: 'Urbanist';
+    src: url('/fonts/Urbanist.ttf');
+}
+
+    footer{
+            padding: 50px;
+            min-height: 300px;
+            background-color: #4F4FFF;
+          }
+          footer a{
+            display: block;
+          }
+          footer a, footer p{
+            margin: 1rem 0;
+            color: black;
+          }
+          .big-link{
+            font-size: 2rem;
+            font-weight: 500;
+          }
+          .some{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+          }
+          .some img{
+            width: 50px;
+          }
+          .contact{
+            display: flex;
+            justify-content: space-around;
+          }
+          
+          #footerref{
+            max-width: 100%;
+          }
+
+
+          flex-grid-2col {
+            display: flex;
+            background-color: white; 
+            padding-top: 0%;
+            padding-bottom: 0%;
+            padding-left: 0%;
+            padding-right: 0%;
+            justify-content: space-between;
+            gap: 150px;
+            align-items: stretch;
+          }
+
+
+@media screen and (max-width: 600px) {
+    .hero h1{
+        font-size: 4pc;
+        line-height: 4pc;
+    }    
+    .teamcard input:checked ~ .team-details {
+        margin-top: 0px;
+    }
+        .team-content{
+        gap: 1rem;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .team-content img{
+        margin: 1rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .full-menu{
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        left: 100svw;
+        width: 100vw;
+        width: 100svw;
+        height: 100vh;
+        height: 100svh;
+        background: rgba(0,0,0,0.5);
+        z-index: 2;
+        display: flex;
+        padding: 5rem;
+        flex-direction: column;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        justify-content: center;
+        gap: 1rem;
+        align-items: end;
+        transition: all 0.5s ease;
+    
+    }
+}
