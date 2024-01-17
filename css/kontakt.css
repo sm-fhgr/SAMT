@@ -93,16 +93,7 @@ main {
 }
 
 
-    a{
-        all: unset;
-        cursor: pointer;
-        padding: 2px;
-        border-bottom: 1px solid transparent;
-        transition: border-bottom 0.3s ease;
-    }
-    a:hover{
-        border-bottom: 1px solid var(--mainDark);}
-
+  
 
    section {
     padding-top: 0%;
