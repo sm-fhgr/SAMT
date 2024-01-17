@@ -250,6 +250,11 @@ a:hover{
 
 @media screen and (max-width: 600px) 
 {
+
+  h1 {
+    padding-top: 15%;
+    font-size: 5pc;
+  }
   .flex-grid-header {
     display: flex;
     justify-content: space-between;
