@@ -104,7 +104,6 @@ main {
   
   p {
     color: white;
-    font-size: 2pc;
     padding-top: 0%;
     padding-bottom: 0%;
     margin-left: 2%;
@@ -151,6 +150,13 @@ h1 {
     background-image: linear-gradient(#0909FE,#FDACC0);
   }
   
+  #ueberschrift p {
+      color: white;
+      padding-top: 0%;
+      padding-bottom: 0%;
+      margin-left: 2%;
+      margin-right: 0%;
+  }
 
 #formular {
   font-family: 'Urbanist';
