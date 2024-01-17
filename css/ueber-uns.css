@@ -19,13 +19,12 @@
     box-sizing: border-box;
 
 }
-#menu{
-    display: none;
-}
-.full-menu{
-    opacity: 0;
+
+
+/* Header style */
+
+header {
     position: fixed;
-    width: 100vw;
     width: 100svw;
   }
   
@@ -33,6 +32,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     height: 80px;
     align-items: center;
     backdrop-filter: blur(15px);
@@ -41,7 +42,37 @@
   .flex-grid-header .col {
     width: 50%;
   }
-
+  
+  
+  #home {
+    text-align: left;
+  }
+  
+  #logo {
+    padding-top: 2px;
+    text-align: center;
+  }
+  
+  #burgernav {
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    top: 0;
+  }
+  
+  
+  /* Nav style */
+  
+  
+  nav {
+    background-color: rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(15px);
+    padding: 0%;
+    margin: 0%;
+  }
+  
   ul{   
     border-radius: 10px;
     padding: 5px;
@@ -51,6 +82,12 @@
     list-style: none;
     text-decoration: none;
   }
+  
+  li a {
+    color: black;
+    font-size: 24px;
+  }
+
   
 
 
@@ -62,6 +99,22 @@ h2, h3, h4, p, a, label{
     font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+h2
+{   color: var(--mainDark);
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 400;
+    font-family: 'urbanist';
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
 .content{
     max-width: 1000px;
     margin: 0 auto;
@@ -83,6 +136,12 @@ h2, h3, h4, p, a, label{
     margin-left: 50px;
 }
 
+.videosection p {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 200;
+}
+
 
 h3 {
     line-height: 6pc;
@@ -95,38 +154,23 @@ h3 {
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    color: var(--white);
-}
-.flex-grid-bühne p{          
-    margin-top: 5%;
-    margin-bottom: 0%;
-    font-size: 2pc;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    font-weight: 400;
-    color: var(--white);
+    color: var(--mainDark);
 }
 
-.flex-grid-bühne {
-    display: flex; 
-    font-weight: bold;
-}
-
-.flex-grid-bühne span {             
-    text-transform: uppercase;   
- }
 
 
 .team{
-    background-color: var(--mainBright);
+    background-color: var(--white);
     padding-bottom: 5%;
 }
+
 .introduction{
-    background: rgb(192,134,209);
-    background: linear-gradient(180deg, rgba(192,134,209,1) 0%, rgba(248,161,183,1) 100%);
-    padding: 20px 50px;
-    color: var(--white);
+
+    background-color: var(--white);
+    padding: 20px 0px;
+    color: var(--mainDark);
 }
+
 .introduction h2{
     font-weight: 500;
     margin-right: 0%;
@@ -134,6 +178,9 @@ h3 {
     padding-bottom: 0%;
     padding-top: 5%;
 }
+
+
+
 
 .content p{
     text-align: left;
@@ -147,7 +194,17 @@ h3 {
 
 .introduction p{
     font-weight: 300;
+    color: var(--mainDark);
 }
+
+.videosection{
+    background: rgb(249,210,255);
+    background: linear-gradient(214deg, rgba(249,210,255,1) 13%, rgba(37,28,246,1) 97%);
+    padding: 150px 100px;
+}
+
+
+
 .team-accordion{
     padding: 100px 0;
 }
@@ -295,5 +352,38 @@ footer a, footer p{
         align-items: end;
         transition: all 0.5s ease;
     
+        .flex-grid-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0px;
+            padding-bottom: 0%;
+            margin-bottom: 0%;
+            height: 80px;
+            align-items: center;
+            backdrop-filter: blur(15px);
+          }
+          
+        
+          .flex-grid-header .col {
+            max-width: 100%;
+            width: 100%;
+          }
+        
+            #burgernav { 
+                width: 0%; 
+                display: none;
+              }
+        
+              #logo {
+                text-align: center;
+              }
+        
+              #home { 
+                display: none; 
+              }
+        
+              nav li a {
+                font-size: 1pc;
+              }
     }
 }
