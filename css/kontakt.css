@@ -28,7 +28,7 @@ header {
 .flex-grid-header {
   display: flex;
   justify-content: space-between;
-  padding: 0 0px;
+  padding: 0 50px;
   padding-bottom: 0%;
   margin-bottom: 0%;
   height: 80px;
