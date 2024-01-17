@@ -265,8 +265,7 @@ h1 {
       line-height: 1.5pc; 
   }
   .scroll-arrow {
-    position: absolute;
-    bottom: -560px; 
+    position: absolute; 
     left: 50%;
     transform: translateX(-50%);
 }
