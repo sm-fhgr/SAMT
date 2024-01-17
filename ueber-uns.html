@@ -13,25 +13,18 @@
 
 <body>
     <header>
-        <div class="flex-grid-header">
-            <div id="logo">
-                <a href="/index.html">
-                    <img src="..\images\logo-samt-header-dark.png " alt="SAMT Logo" class="logo" width="auto"
-                        height="50">
-                </a>
+        <div class="flex-grid-header">    
+            <div class="col" id="home">
+                <a href="index.html"><img id="home" src="..\images\icons\haus.png" alt="Home" width="50" height="50"></a>
             </div>
-                <input type="checkbox" name="menu" id="menu">
-                <label for="menu" class="menu-burger">
-                    <span class="burger-line"></span>
-                </label>
-                <div class="full-menu">
-                    <a href="/index.html">Home</a>
-                    <a href="/angebot.html">Angebot</a>
-                    <a href="/ueber-uns.html">Über uns</a>
-                    <a href="/kontakt">Kontakt</a>
-                </div>
+            <div class="col" id="logo">
+                <img src="..\images\logo-samt-header-dark.png" alt="SAMT Logo" class="logo" width="auto" height="100">
+            </div>
+            <div class="col" id="burgernav">
+            <img src="..\images\icons\burger.png" alt="menuburger" width="50" height="50"> </a>
+            </div>
         </div>
-    </header>
+        </header>
     <main>
         <section class="hero">
             <h1>Über<br><span>Samt</span></h1>
@@ -39,7 +32,7 @@
         <section class="team">
             <div class="introduction">
                 <div class="content">
-                    <h2>Hi Wir sind <span>Samt</span>!</h2>
+                    <h2>Hi, Wir sind <span>Samt</span>!</h2>
                     <p>Die Herzen und Köpfe hinter diesem Projekt!
                         Wir sind vier Multimedia Production Studierende aus Bern, die von einer Leidenschaft für Kunst
                         und Kultur
@@ -50,6 +43,33 @@
                         nachhaltig aufleben lassen.</p>
                 </div>
             </div>
+
+         <section class="videosection"> 
+            <h3> Bühne frei für unsere Crew!</h3> <br>
+
+                 <div class="flex-grid-bühne" id="Bühne">
+        
+                        <p> Hier strahlt das Rampenlicht auf uns.
+                            Erfahre mehr über unsere Crew und die Geschichte von
+                            SAMT! Wenn das Rampenlicht auf uns fällt, entdeckst du
+                            unser Team und die Idee, die sich hinter <span> Samt</span> verbirgt.  
+                            Willkommen bei <span> Samt!</span> </p>
+                        </div>
+
+                        <div class="flex-grid-video"> 
+                            <div class="video"> 
+                                <div style="padding:75% 0 0 0;position:relative;"><iframe 
+                                    src="https://player.vimeo.com/video/903497535?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                                    title="Founders_Samt"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> 
+                    </section>
+              
+                            
+              </div>
+        
+              
+           
             <div class="team-accordion content">
                 <div class="teamcard">
                     <input type="radio" name="accordion-2" id="rd1">
@@ -63,10 +83,10 @@
                             <img src="/images/team/saurabh.webp" alt="Saurabh">
                             <p>
                                 Ob vor oder hinter der Kamera, ob Psychologie 
-    oder Multimedia Produktionen, Saurabh hat schon 
-    einiges erlebt und hinter sich. Doch das stoppt ihn nicht 
-    immer weiterzumachen, um Neues zu 
-    erlernen und zu erleben.
+                                oder Multimedia Produktionen, Saurabh hat schon 
+                                einiges erlebt und hinter sich. Doch das stoppt ihn nicht 
+                                immer weiterzumachen, um Neues zu 
+                                erlernen und zu erleben.
                             </p>
                         </div>
                     </div>
@@ -91,6 +111,7 @@
                         </div>
                     </div>
                 </div>
+        
                 <div class="teamcard">
                     <input type="radio" name="accordion-2" id="rd3">
                     <label class="tab_label" for="rd3">
@@ -131,6 +152,8 @@
 
             </div>
         </section>
+       
+
     </main>
     <footer>
         <div class="content">

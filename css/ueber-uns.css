@@ -9,16 +9,7 @@
     font-family: 'Urbanist';
     src: url('/fonts/Urbanist.ttf');
 }
-body {
 
-    background-image: url(../images/background.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    padding: 0%;
-    margin: 0%;
-  }
 *{
     --mainDark: #1b1b1b;
     --mainBright: #f5e2ff;
@@ -26,65 +17,50 @@ body {
     --black: #000;
     --white: #fff;
     box-sizing: border-box;
+}
 
+
+body.ueberuns {
+    background-image: url(../images/background.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0%;
+    margin: 0%;
 }
-#menu{
-    display: none;
-}
-.full-menu{
-    opacity: 0;
+
+header{
     position: fixed;
-    top: 0;
-    left: 100vw;
-    left: 100svw;
     width: 100vw;
     width: 100svw;
-    height: 100vh;
-    height: 100svh;
-    background: rgba(0,0,0,0.5);
-    z-index: 2;
+  }
+  
+  .flex-grid-header {
     display: flex;
-    padding: 10rem;
-    flex-direction: column;
-    color: white;
-    font-size: 3rem;
-    font-weight: 500;
-    justify-content: center;
-    gap: 2rem;
-    align-items: end;
-    transition: all 0.5s ease;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+    backdrop-filter: blur(15px);
+  }
+  
+  .flex-grid-header .col {
+    width: 50%;
+  }
 
-}
-.burger-line, .burger-line::after, .burger-line::before{
-    transition: all 0.3s ease;
-}
-#menu:checked ~ .full-menu{
-    opacity: 1;
-    left: 0;
-}
-#menu:checked ~ .menu-burger .burger-line, #menu:checked ~ .menu-burger .burger-line::before, #menu:checked ~ .menu-burger .burger-line::after{
-    background-color: white;
-}
-#menu:checked ~ .menu-burger .burger-line{
-    transform: rotate(45deg);
-}
-#menu:checked ~ .menu-burger .burger-line::before{
-    display: none;
-}
-#menu:checked ~ .menu-burger .burger-line::after{
-    transform: rotate(90deg) translate(-10px, 0px);
-    width: 40px;
-}
-a{
-    all: unset;
-    cursor: pointer;
-    padding: 2px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.3s ease;
-}
-a:hover{
-    border-bottom: 1px solid var(--mainDark);
-}
+  ul{   
+    border-radius: 10px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+
+
 h1{
     font-family: 'TTTravelsNext', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--mainDark)
@@ -93,10 +69,27 @@ h2, h3, h4, p, a, label{
     font-family: 'Urbanist', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
+h2
+{   color: var(--mainDark);
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 400;
+    font-family: 'urbanist';
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
 .content{
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .hero{
     min-height: 100vh;
     min-height: 100svh;
@@ -105,31 +98,107 @@ h2, h3, h4, p, a, label{
 }
 .hero h1{
     text-transform: uppercase;
-    line-height: 5pc;
+    line-height: 6pc;
     font-family: 'TTTravelsNextBlackItalic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 100px;
 }
 .hero h1 span{
     margin-left: 50px;
 }
+
+
+h3 {
+    line-height: 6pc;
+    font-size: 7pc;
+    font-weight: 400;
+    font-family: 'urbanist';
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: var(--white);
+}
+.flex-grid-bühne p{          
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 2pc;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.flex-grid-bühne {
+    display: flex; 
+    font-weight: bold;
+}
+
+.flex-grid-bühne span {             
+    text-transform: uppercase;   
+ }
+
+
 .team{
     background-color: var(--mainBright);
-    padding-bottom: 100px;
+    padding-bottom: 5%;
 }
-.introduction{
-    background: rgb(192,134,209);
-    background: linear-gradient(180deg, rgba(192,134,209,1) 0%, rgba(248,161,183,1) 100%);
-    padding: 20px 50px;
-    color: var(--white);
+.introduction {
+
+    background-color: var(--white);
+    padding: 0%;
+    margin: 0%;
+    color: var(--mainDark);
 }
 .introduction h2{
     font-weight: 500;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-bottom: 0%;
+    padding-top: 5%;
 }
-.introduction h2 span{
-    text-transform: uppercase;
+
+.content p{
+    text-align: left;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
+
+
+
 .introduction p{
     font-weight: 300;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    margin-left: 0%
 }
+
+.videosection{
+    background: rgb(255,173,220);
+background: linear-gradient(287deg, rgba(255,173,220,1) 21%, rgba(69,44,246,1) 82%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    margin-left: 0%
+}
+
+a{                                                  
+    all: unset;
+    cursor: pointer;
+    padding: 2px;
+    border-bottom: 1px solid transparent; 
+    transition: border-bottom 0.3s ease;
+}
+
+a:hover{
+    border-bottom: 1px solid var(--mainDark);
+}
+
 .team-accordion{
     padding: 100px 0;
 }
@@ -163,7 +232,7 @@ h2, h3, h4, p, a, label{
 .tab_label::after{
     position: absolute;
     right: 50px;
-    content: '\276F'; /*unicode zeichen ❯ */
+    content: '\276F'; /*unicode zeichen â¯ */
     width: 1em;
     height: 1em;
     text-align: center;
@@ -232,10 +301,14 @@ footer a, footer p{
     justify-content: space-around;
 }
 @media screen and (max-width: 600px) {
+
+
     .hero h1{
-        font-size: 4pc;
-        line-height: 4pc;
+        font-size: 7pc;
+        line-height: 6pc;
     }    
+
+
     .teamcard input:checked ~ .team-details {
         margin-top: 0px;
     }
@@ -275,3 +348,74 @@ footer a, footer p{
     
     }
 }
+
+
+@media (min-width: 768px) {
+    .hero h1{
+        font-size: 7pc;
+        line-height: 6pc;
+    }    
+
+    .content .h3 { 
+        line-height: 6pc;
+        font-size: 7pc;
+        font-weight: 400;
+        font-family: 'urbanist';
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        color: var(--white);
+    }
+}
+    .teamcard input:checked ~ .team-details {
+        margin-top: 0px;
+    }
+        .team-content{
+        gap: 1rem;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .team-content img{
+        margin: 1rem;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .full-menu{
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        left: 100svw;
+        width: 100vw;
+        width: 100svw;
+        height: 100vh;
+        height: 100svh;
+        background: rgba(0,0,0,0.5);
+        z-index: 2;
+        display: flex;
+        padding: 5rem;
+        flex-direction: column;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        justify-content: center;
+        gap: 1rem;
+        align-items: end;
+        transition: all 0.5s ease;
+    
+    
+        
+        .flex-grid-bühne p{         
+            font-weight: 300;
+            text-transform: none;
+            font-size: 20px;
+            color: var(--white);
+        }
+    } 
+        }
+    
+    
