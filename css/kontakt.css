@@ -211,56 +211,44 @@ textarea {  resize: vertical;}
 
 
     
-footer {
-  font-family: 'Urbanist';
-    src: url('/fonts/Urbanist.ttf');
+footer{
+  padding: 50px;
+  min-height: 300px;
+  background-color: #4F4FFF;
+}
+footer a{
+  display: block;
+}
+footer a, footer p{
+  margin: 1rem 0;
+  color: black;
+}
+.big-link{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.some{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.some img{
+  width: 50px;
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
 }
 
-    footer{
-            padding: 50px;
-            min-height: 300px;
-            background-color: #4F4FFF;
-          }
-          footer a{
-            display: block;
-          }
-          footer a, footer p{
-            margin: 1rem 0;
-            color: black;
-          }
-          .big-link{
-            font-size: 2rem;
-            font-weight: 500;
-          }
-          .some{
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-          }
-          .some img{
-            width: 50px;
-          }
-          .contact{
-            display: flex;
-            justify-content: space-around;
-          }
-          
-          #footerref{
-            max-width: 100%;
-          }
+#footerref{
+  max-width: 100%;
+}
 
+/* Hover Effect */
 
-          flex-grid-2col {
-            display: flex;
-            background-color: white; 
-            padding-top: 0%;
-            padding-bottom: 0%;
-            padding-left: 0%;
-            padding-right: 0%;
-            justify-content: space-between;
-            gap: 150px;
-            align-items: stretch;
-          }
+a:hover{
+  border-bottom: 2px solid black;
+}
 
 
 @media screen and (max-width: 600px) {
